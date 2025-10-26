@@ -4,8 +4,10 @@ Projeto desenvolvido como parte das Experiências Práticas – Linguagem de Est
 Objetivo
 
 Construir uma interface moderna e responsiva utilizando boas práticas de CSS3, aplicando um sistema de design completo, tipografia hierárquica, paleta de cores, e componentes reutilizáveis.
+
 Estrutura do Projeto
-📦 Entrega_II_CSS_Project_Final
+
+Entrega_II_CSS_Project_Final
 ├── index.html
 ├── assets/
 │   ├── css/
@@ -18,7 +20,9 @@ Estrutura do Projeto
 │   └── js/
 │       └── script.js
 └── README.md
+
 Sistema de Design
+
 Paleta de Cores (8 cores)
 Nome	Hex	Uso
 Primária	#0056D2	Links, botões principais
@@ -31,6 +35,7 @@ Neutro Médio	#DDE1E7	Bordas e divisórias
 Neutro Escuro	#1C1C1C	Texto principal
 
 Tipografia Hierárquica
+
 Título principal (h1) – 32px
 Subtítulo (h2) – 24px
 Seção (h3) – 20px
@@ -39,7 +44,9 @@ Detalhe / legenda – 14px
 Espaçamento Modular
 Sistema baseado em múltiplos de 8px:
 8px, 16px, 24px, 32px, 48px, 64px
+
 Layout Responsivo
+
 Estrutura principal em CSS Grid (12 colunas)
 Componentes internos utilizando Flexbox
 5 breakpoints definidos para:
@@ -56,6 +63,7 @@ Menu hambúrguer funcional em telas menores
 Scroll suave entre seções
 
 Componentes de Interface
+
 Tipo	Descrição
 Cards	Exibição de projetos e conteúdos
 Botões	Estados: hover, focus, active, disabled
