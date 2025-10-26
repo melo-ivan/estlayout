@@ -31,46 +31,28 @@ Neutro Médio	#DDE1E7	Bordas e divisórias
 Neutro Escuro	#1C1C1C	Texto principal
 
 Tipografia Hierárquica
-
 Título principal (h1) – 32px
-
 Subtítulo (h2) – 24px
-
 Seção (h3) – 20px
-
 Texto padrão (p) – 16px
-
 Detalhe / legenda – 14px
-
 Espaçamento Modular
-
 Sistema baseado em múltiplos de 8px:
 8px, 16px, 24px, 32px, 48px, 64px
-
 Layout Responsivo
-
 Estrutura principal em CSS Grid (12 colunas)
-
 Componentes internos utilizando Flexbox
-
 5 breakpoints definidos para:
-
 1440px (desktop grande)
-
 1200px (notebook)
-
 992px (tablet horizontal)
-
 768px (tablet vertical)
-
 480px (smartphones)
 
 Navegação Interativa
 
 Menu principal responsivo com submenu dropdown
-
 Menu hambúrguer funcional em telas menores
-
 Scroll suave entre seções
 
 Componentes de Interface
@@ -84,18 +66,11 @@ Badges & Tags	Categorização de projetos
 Imagens
 
 O projeto inclui imagens ilustrativas (placeholders) simulando conteúdo real:
-
 Banner principal
-
 3 imagens de projetos
-
 Tecnologias Utilizadas
-
 HTML5
-
 CSS3 (Grid, Flexbox, Variáveis Customizadas)
-
 Google Fonts
-
 Font Awesome (ícones)
 
