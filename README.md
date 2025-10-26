@@ -1,33 +1,101 @@
-# Entrega II – Estilização e Leiautes (Pronto para envio)
+Entrega II – Experiências Práticas: Linguagem de Estilo (CSS3)
 
-## O que está no projeto
-- HTML: `index.html`
-- CSS modular: `assets/css/design-system.css` (tokens) e `assets/css/style.css` (componentes)
-- JS: `assets/js/main.js`
-- Placeholders de imagens em `assets/images/` (SVGs) — substitua pelos seus arquivos reais antes do envio.
-- Estrutura de grid 12 colunas, Flexbox para componentes e 5+ breakpoints.
+Projeto desenvolvido como parte das Experiências Práticas – Linguagem de Estilo do curso de Desenvolvimento Web, abordando Design System, Layouts Responsivos e Componentes Interativos com CSS3.
+Objetivo
 
-## Imagens (obrigatório)
-Substitua os arquivos em `assets/images/` por imagens reais antes de subir no GitHub público. Arquivos placeholders:
-- `logo-placeholder.svg` — logotipo (substituir)
-- `hero-placeholder.svg` — imagem de capa/hero (substituir)
-- `project-1-placeholder.svg`, `project-2-placeholder.svg`, `project-3-placeholder.svg` — imagens de projetos (substituir)
+Construir uma interface moderna e responsiva utilizando boas práticas de CSS3, aplicando um sistema de design completo, tipografia hierárquica, paleta de cores, e componentes reutilizáveis.
+Estrutura do Projeto
+📦 Entrega_II_CSS_Project_Final
+├── index.html
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── img/
+│   │   ├── banner-css3.png
+│   │   ├── projeto1.jpg
+│   │   ├── projeto2.jpg
+│   │   └── projeto3.jpg
+│   └── js/
+│       └── script.js
+└── README.md
+Sistema de Design
+Paleta de Cores (8 cores)
+Nome	Hex	Uso
+Primária	#0056D2	Links, botões principais
+Secundária	#00ADEF	Destaques e ícones
+Sucesso	#2ECC71	Feedback positivo
+Atenção	#E67E22	Alertas leves
+Erro	#E74C3C	Mensagens de erro
+Neutro Claro	#F7F9FC	Fundo
+Neutro Médio	#DDE1E7	Bordas e divisórias
+Neutro Escuro	#1C1C1C	Texto principal
 
-Recomendo imagens em JPG/PNG otimizadas ou SVGs para ícones. Use nomes claros: `hero.jpg`, `project-1.jpg`, etc.
+Tipografia Hierárquica
 
-## Checklist para entrega (copiar para o Ambiente Virtual)
-- [ ] Repositório GitHub público com todos os arquivos.
-- [ ] Pasta `assets/` contendo `css/`, `js/`, `images/`.
-- [ ] `design-system.css` com paleta ≥8 cores, tipografia ≥5 tamanhos, espaçamento modular.
-- [ ] Layout principal em CSS Grid (12 colunas) + Flexbox nos componentes.
-- [ ] Navegação com submenu e menu mobile (hambúrguer).
-- [ ] Componentes: cards, botões (hover/focus/active/disabled), formulários com validação visual, toasts/alerts/modals, badges/tags.
-- [ ] Substituir placeholders de imagem por imagens reais (necessário para avaliação).
+Título principal (h1) – 32px
 
-## Como publicar no GitHub Pages (resumido)
-1. Crie repositório público e faça push dos arquivos.  
-2. Vá em **Settings → Pages** e selecione a branch `main` (ou `gh-pages`) e a pasta `/root`.  
-3. Aguarde e abra o link fornecido pelo GitHub Pages.
+Subtítulo (h2) – 24px
 
----
-Boa prática: verifique contraste e teste responsivo em 4 tamanhos diferentes.
+Seção (h3) – 20px
+
+Texto padrão (p) – 16px
+
+Detalhe / legenda – 14px
+
+Espaçamento Modular
+
+Sistema baseado em múltiplos de 8px:
+8px, 16px, 24px, 32px, 48px, 64px
+
+Layout Responsivo
+
+Estrutura principal em CSS Grid (12 colunas)
+
+Componentes internos utilizando Flexbox
+
+5 breakpoints definidos para:
+
+1440px (desktop grande)
+
+1200px (notebook)
+
+992px (tablet horizontal)
+
+768px (tablet vertical)
+
+480px (smartphones)
+
+Navegação Interativa
+
+Menu principal responsivo com submenu dropdown
+
+Menu hambúrguer funcional em telas menores
+
+Scroll suave entre seções
+
+Componentes de Interface
+Tipo	Descrição
+Cards	Exibição de projetos e conteúdos
+Botões	Estados: hover, focus, active, disabled
+Formulários	Campos estilizados com validação visual
+Feedbacks	Alerts e toasts simulados
+Badges & Tags	Categorização de projetos
+
+Imagens
+
+O projeto inclui imagens ilustrativas (placeholders) simulando conteúdo real:
+
+Banner principal
+
+3 imagens de projetos
+
+Tecnologias Utilizadas
+
+HTML5
+
+CSS3 (Grid, Flexbox, Variáveis Customizadas)
+
+Google Fonts
+
+Font Awesome (ícones)
+
