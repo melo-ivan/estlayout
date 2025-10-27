@@ -1,6 +1,7 @@
 Entrega II – Experiências Práticas: Linguagem de Estilo (CSS3)
 
 Projeto desenvolvido como parte das Experiências Práticas – Linguagem de Estilo do curso de Desenvolvimento Web, abordando Design System, Layouts Responsivos e Componentes Interativos com CSS3.
+
 Objetivo
 
 Construir uma interface moderna e responsiva utilizando boas práticas de CSS3, aplicando um sistema de design completo, tipografia hierárquica, paleta de cores, e componentes reutilizáveis.
